@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15D691EB22AAA177006D8FB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D691EA22AAA177006D8FB2 /* AppDelegate.m */; };
+		15D691F122AAA177006D8FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D691EF22AAA177006D8FB2 /* Main.storyboard */; };
+		15D691F322AAA179006D8FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D691F222AAA179006D8FB2 /* Assets.xcassets */; };
+		15D691F622AAA179006D8FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D691F422AAA179006D8FB2 /* LaunchScreen.storyboard */; };
+		15D691F922AAA179006D8FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D691F822AAA179006D8FB2 /* main.m */; };
+		15D6920322AAA179006D8FB2 /* RingChartsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6920222AAA179006D8FB2 /* RingChartsTests.m */; };
+		15D6920E22AAA179006D8FB2 /* RingChartsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6920D22AAA179006D8FB2 /* RingChartsUITests.m */; };
+		15D6922122AAA2A9006D8FB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6922022AAA2A9006D8FB2 /* ViewController.m */; };
+		15D6922422AAA3BB006D8FB2 /* RingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6922322AAA3BB006D8FB2 /* RingModel.m */; };
+		15D6922E22AAA61A006D8FB2 /* RingBottomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6922622AAA61A006D8FB2 /* RingBottomCollectionViewCell.m */; };
+		15D6922F22AAA61A006D8FB2 /* YDCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6922822AAA61A006D8FB2 /* YDCircleProgressView.m */; };
+		15D6923022AAA61A006D8FB2 /* RingBottomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D6922A22AAA61A006D8FB2 /* RingBottomCollectionViewCell.xib */; };
+		15D6923122AAA61A006D8FB2 /* RingMainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D6922C22AAA61A006D8FB2 /* RingMainCollectionViewCell.m */; };
+		15D6923222AAA61A006D8FB2 /* RingMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D6922D22AAA61A006D8FB2 /* RingMainCollectionViewCell.xib */; };
+		E004B49B4D907289B0A00E6E /* libPods-RingCharts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C940FDCB66947606C9268D5 /* libPods-RingCharts.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15D691FF22AAA179006D8FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D691DE22AAA177006D8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D691E522AAA177006D8FB2;
+			remoteInfo = RingCharts;
+		};
+		15D6920A22AAA179006D8FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D691DE22AAA177006D8FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D691E522AAA177006D8FB2;
+			remoteInfo = RingCharts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15D691E622AAA177006D8FB2 /* RingCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RingCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D691E922AAA177006D8FB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15D691EA22AAA177006D8FB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15D691F022AAA177006D8FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15D691F222AAA179006D8FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15D691F522AAA179006D8FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15D691F722AAA179006D8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D691F822AAA179006D8FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15D691FE22AAA179006D8FB2 /* RingChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6920222AAA179006D8FB2 /* RingChartsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingChartsTests.m; sourceTree = "<group>"; };
+		15D6920422AAA179006D8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D6920922AAA179006D8FB2 /* RingChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RingChartsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D6920D22AAA179006D8FB2 /* RingChartsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingChartsUITests.m; sourceTree = "<group>"; };
+		15D6920F22AAA179006D8FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D6921F22AAA2A9006D8FB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		15D6922022AAA2A9006D8FB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		15D6922222AAA3BB006D8FB2 /* RingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingModel.h; sourceTree = "<group>"; };
+		15D6922322AAA3BB006D8FB2 /* RingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RingModel.m; sourceTree = "<group>"; };
+		15D6922522AAA511006D8FB2 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		15D6922622AAA61A006D8FB2 /* RingBottomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingBottomCollectionViewCell.m; sourceTree = "<group>"; };
+		15D6922722AAA61A006D8FB2 /* RingMainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingMainCollectionViewCell.h; sourceTree = "<group>"; };
+		15D6922822AAA61A006D8FB2 /* YDCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDCircleProgressView.m; sourceTree = "<group>"; };
+		15D6922922AAA61A006D8FB2 /* RingBottomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBottomCollectionViewCell.h; sourceTree = "<group>"; };
+		15D6922A22AAA61A006D8FB2 /* RingBottomCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RingBottomCollectionViewCell.xib; sourceTree = "<group>"; };
+		15D6922B22AAA61A006D8FB2 /* YDCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDCircleProgressView.h; sourceTree = "<group>"; };
+		15D6922C22AAA61A006D8FB2 /* RingMainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingMainCollectionViewCell.m; sourceTree = "<group>"; };
+		15D6922D22AAA61A006D8FB2 /* RingMainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RingMainCollectionViewCell.xib; sourceTree = "<group>"; };
+		4C940FDCB66947606C9268D5 /* libPods-RingCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RingCharts.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62786F4887AE08E0DE85540B /* Pods-RingCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingCharts.debug.xcconfig"; path = "Target Support Files/Pods-RingCharts/Pods-RingCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		AD340D189517510E0AF61952 /* Pods-RingCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RingCharts.release.xcconfig"; path = "Target Support Files/Pods-RingCharts/Pods-RingCharts.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15D691E322AAA177006D8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E004B49B4D907289B0A00E6E /* libPods-RingCharts.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D691FB22AAA179006D8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6920622AAA179006D8FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15D691DD22AAA177006D8FB2 = {
+			isa = PBXGroup;
+			children = (
+				15D691E822AAA177006D8FB2 /* RingCharts */,
+				15D6920122AAA179006D8FB2 /* RingChartsTests */,
+				15D6920C22AAA179006D8FB2 /* RingChartsUITests */,
+				15D691E722AAA177006D8FB2 /* Products */,
+				EE37AA1AC5DF0C922786E542 /* Pods */,
+				6C55A0D581CEE32BE81C1D4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15D691E722AAA177006D8FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D691E622AAA177006D8FB2 /* RingCharts.app */,
+				15D691FE22AAA179006D8FB2 /* RingChartsTests.xctest */,
+				15D6920922AAA179006D8FB2 /* RingChartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15D691E822AAA177006D8FB2 /* RingCharts */ = {
+			isa = PBXGroup;
+			children = (
+				15D6921B22AAA26D006D8FB2 /* Ring */,
+				15D691E922AAA177006D8FB2 /* AppDelegate.h */,
+				15D691EA22AAA177006D8FB2 /* AppDelegate.m */,
+				15D6922522AAA511006D8FB2 /* AppMacro.h */,
+				15D691EF22AAA177006D8FB2 /* Main.storyboard */,
+				15D691F222AAA179006D8FB2 /* Assets.xcassets */,
+				15D691F422AAA179006D8FB2 /* LaunchScreen.storyboard */,
+				15D691F722AAA179006D8FB2 /* Info.plist */,
+				15D691F822AAA179006D8FB2 /* main.m */,
+			);
+			path = RingCharts;
+			sourceTree = "<group>";
+		};
+		15D6920122AAA179006D8FB2 /* RingChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				15D6920222AAA179006D8FB2 /* RingChartsTests.m */,
+				15D6920422AAA179006D8FB2 /* Info.plist */,
+			);
+			path = RingChartsTests;
+			sourceTree = "<group>";
+		};
+		15D6920C22AAA179006D8FB2 /* RingChartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15D6920D22AAA179006D8FB2 /* RingChartsUITests.m */,
+				15D6920F22AAA179006D8FB2 /* Info.plist */,
+			);
+			path = RingChartsUITests;
+			sourceTree = "<group>";
+		};
+		15D6921B22AAA26D006D8FB2 /* Ring */ = {
+			isa = PBXGroup;
+			children = (
+				15D6921C22AAA26D006D8FB2 /* Controller */,
+				15D6921D22AAA26D006D8FB2 /* Model */,
+				15D6921E22AAA26D006D8FB2 /* View */,
+			);
+			path = Ring;
+			sourceTree = "<group>";
+		};
+		15D6921C22AAA26D006D8FB2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15D6921F22AAA2A9006D8FB2 /* ViewController.h */,
+				15D6922022AAA2A9006D8FB2 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15D6921D22AAA26D006D8FB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15D6922222AAA3BB006D8FB2 /* RingModel.h */,
+				15D6922322AAA3BB006D8FB2 /* RingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15D6921E22AAA26D006D8FB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15D6922722AAA61A006D8FB2 /* RingMainCollectionViewCell.h */,
+				15D6922C22AAA61A006D8FB2 /* RingMainCollectionViewCell.m */,
+				15D6922D22AAA61A006D8FB2 /* RingMainCollectionViewCell.xib */,
+				15D6922922AAA61A006D8FB2 /* RingBottomCollectionViewCell.h */,
+				15D6922622AAA61A006D8FB2 /* RingBottomCollectionViewCell.m */,
+				15D6922A22AAA61A006D8FB2 /* RingBottomCollectionViewCell.xib */,
+				15D6922B22AAA61A006D8FB2 /* YDCircleProgressView.h */,
+				15D6922822AAA61A006D8FB2 /* YDCircleProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C55A0D581CEE32BE81C1D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C940FDCB66947606C9268D5 /* libPods-RingCharts.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE37AA1AC5DF0C922786E542 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62786F4887AE08E0DE85540B /* Pods-RingCharts.debug.xcconfig */,
+				AD340D189517510E0AF61952 /* Pods-RingCharts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D691E522AAA177006D8FB2 /* RingCharts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6921222AAA179006D8FB2 /* Build configuration list for PBXNativeTarget "RingCharts" */;
+			buildPhases = (
+				65D95C5D614A29AAAD56A49A /* [CP] Check Pods Manifest.lock */,
+				15D691E222AAA177006D8FB2 /* Sources */,
+				15D691E322AAA177006D8FB2 /* Frameworks */,
+				15D691E422AAA177006D8FB2 /* Resources */,
+				24876487A2294C207FA78B96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RingCharts;
+			productName = RingCharts;
+			productReference = 15D691E622AAA177006D8FB2 /* RingCharts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15D691FD22AAA179006D8FB2 /* RingChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6921522AAA179006D8FB2 /* Build configuration list for PBXNativeTarget "RingChartsTests" */;
+			buildPhases = (
+				15D691FA22AAA179006D8FB2 /* Sources */,
+				15D691FB22AAA179006D8FB2 /* Frameworks */,
+				15D691FC22AAA179006D8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D6920022AAA179006D8FB2 /* PBXTargetDependency */,
+			);
+			name = RingChartsTests;
+			productName = RingChartsTests;
+			productReference = 15D691FE22AAA179006D8FB2 /* RingChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15D6920822AAA179006D8FB2 /* RingChartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D6921822AAA179006D8FB2 /* Build configuration list for PBXNativeTarget "RingChartsUITests" */;
+			buildPhases = (
+				15D6920522AAA179006D8FB2 /* Sources */,
+				15D6920622AAA179006D8FB2 /* Frameworks */,
+				15D6920722AAA179006D8FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D6920B22AAA179006D8FB2 /* PBXTargetDependency */,
+			);
+			name = RingChartsUITests;
+			productName = RingChartsUITests;
+			productReference = 15D6920922AAA179006D8FB2 /* RingChartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15D691DE22AAA177006D8FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "肖祥宏";
+				TargetAttributes = {
+					15D691E522AAA177006D8FB2 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					15D691FD22AAA179006D8FB2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 15D691E522AAA177006D8FB2;
+					};
+					15D6920822AAA179006D8FB2 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 15D691E522AAA177006D8FB2;
+					};
+				};
+			};
+			buildConfigurationList = 15D691E122AAA177006D8FB2 /* Build configuration list for PBXProject "RingCharts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15D691DD22AAA177006D8FB2;
+			productRefGroup = 15D691E722AAA177006D8FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D691E522AAA177006D8FB2 /* RingCharts */,
+				15D691FD22AAA179006D8FB2 /* RingChartsTests */,
+				15D6920822AAA179006D8FB2 /* RingChartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15D691E422AAA177006D8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6923022AAA61A006D8FB2 /* RingBottomCollectionViewCell.xib in Resources */,
+				15D691F622AAA179006D8FB2 /* LaunchScreen.storyboard in Resources */,
+				15D691F322AAA179006D8FB2 /* Assets.xcassets in Resources */,
+				15D6923222AAA61A006D8FB2 /* RingMainCollectionViewCell.xib in Resources */,
+				15D691F122AAA177006D8FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D691FC22AAA179006D8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6920722AAA179006D8FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24876487A2294C207FA78B96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RingCharts/Pods-RingCharts-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RingCharts/Pods-RingCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65D95C5D614A29AAAD56A49A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RingCharts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15D691E222AAA177006D8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6922122AAA2A9006D8FB2 /* ViewController.m in Sources */,
+				15D691F922AAA179006D8FB2 /* main.m in Sources */,
+				15D691EB22AAA177006D8FB2 /* AppDelegate.m in Sources */,
+				15D6922E22AAA61A006D8FB2 /* RingBottomCollectionViewCell.m in Sources */,
+				15D6923122AAA61A006D8FB2 /* RingMainCollectionViewCell.m in Sources */,
+				15D6922F22AAA61A006D8FB2 /* YDCircleProgressView.m in Sources */,
+				15D6922422AAA3BB006D8FB2 /* RingModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D691FA22AAA179006D8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6920322AAA179006D8FB2 /* RingChartsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D6920522AAA179006D8FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D6920E22AAA179006D8FB2 /* RingChartsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15D6920022AAA179006D8FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D691E522AAA177006D8FB2 /* RingCharts */;
+			targetProxy = 15D691FF22AAA179006D8FB2 /* PBXContainerItemProxy */;
+		};
+		15D6920B22AAA179006D8FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D691E522AAA177006D8FB2 /* RingCharts */;
+			targetProxy = 15D6920A22AAA179006D8FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15D691EF22AAA177006D8FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D691F022AAA177006D8FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15D691F422AAA179006D8FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15D691F522AAA179006D8FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15D6921022AAA179006D8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15D6921122AAA179006D8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D6921322AAA179006D8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62786F4887AE08E0DE85540B /* Pods-RingCharts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5736X2GWF;
+				INFOPLIST_FILE = RingCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxh.RingCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15D6921422AAA179006D8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD340D189517510E0AF61952 /* Pods-RingCharts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5736X2GWF;
+				INFOPLIST_FILE = RingCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxh.RingCharts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15D6921622AAA179006D8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5736X2GWF;
+				INFOPLIST_FILE = RingChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxh.RingChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingCharts.app/RingCharts";
+			};
+			name = Debug;
+		};
+		15D6921722AAA179006D8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5736X2GWF;
+				INFOPLIST_FILE = RingChartsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxh.RingChartsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RingCharts.app/RingCharts";
+			};
+			name = Release;
+		};
+		15D6921922AAA179006D8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5736X2GWF;
+				INFOPLIST_FILE = RingChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxh.RingChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingCharts;
+			};
+			name = Debug;
+		};
+		15D6921A22AAA179006D8FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V5736X2GWF;
+				INFOPLIST_FILE = RingChartsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoxh.RingChartsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RingCharts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D691E122AAA177006D8FB2 /* Build configuration list for PBXProject "RingCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6921022AAA179006D8FB2 /* Debug */,
+				15D6921122AAA179006D8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6921222AAA179006D8FB2 /* Build configuration list for PBXNativeTarget "RingCharts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6921322AAA179006D8FB2 /* Debug */,
+				15D6921422AAA179006D8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6921522AAA179006D8FB2 /* Build configuration list for PBXNativeTarget "RingChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6921622AAA179006D8FB2 /* Debug */,
+				15D6921722AAA179006D8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15D6921822AAA179006D8FB2 /* Build configuration list for PBXNativeTarget "RingChartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D6921922AAA179006D8FB2 /* Debug */,
+				15D6921A22AAA179006D8FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15D691DE22AAA177006D8FB2 /* Project object */;
+}

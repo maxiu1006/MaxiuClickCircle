@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RingBottomCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96d-Z6-3hR">
+                        <rect key="frame" x="20" y="8" width="96" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="36" id="p60-7j-VZG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Vg-KS-A51">
+                        <rect key="frame" x="8" y="11" width="8" height="8"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="Tad-YA-T16"/>
+                            <constraint firstAttribute="height" constant="8" id="TzT-9V-7uJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="96d-Z6-3hR" firstAttribute="top" secondItem="8Vg-KS-A51" secondAttribute="top" constant="-3" id="Luh-9a-lfY"/>
+                <constraint firstItem="96d-Z6-3hR" firstAttribute="leading" secondItem="8Vg-KS-A51" secondAttribute="trailing" constant="4" id="bgT-1Q-xGn"/>
+                <constraint firstItem="8Vg-KS-A51" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="11" id="qJ9-K9-83o"/>
+                <constraint firstAttribute="trailing" secondItem="96d-Z6-3hR" secondAttribute="trailing" constant="4" id="rDw-UF-utT"/>
+                <constraint firstItem="8Vg-KS-A51" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="s3G-sP-qNe"/>
+            </constraints>
+            <connections>
+                <outlet property="leftView" destination="8Vg-KS-A51" id="L3J-OY-gsE"/>
+                <outlet property="titleLb" destination="96d-Z6-3hR" id="Oue-PF-yKQ"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="128.63568215892056"/>
+        </collectionViewCell>
+    </objects>
+</document>
